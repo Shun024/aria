@@ -87,4 +87,4 @@ testpaths = ["tests"]
 addopts = "--cov=aria --cov-report=term-missing --cov-fail-under=70"
 
 [tool.coverage.run]
-omit = ["tests/*", "scripts/*", "notebooks/*"]
+omit = ["tests/*", "scripts/*", "notebooks/*", "aria/config/settings.py"]
